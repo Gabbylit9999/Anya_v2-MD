@@ -8,23 +8,23 @@ global.zApiKey = {// if this API key get expired then please go to https://www.f
 }
 
 
-global.botname = process.env.BotName || "Queen Anya" 
-global.author = process.env.Author || "@PikaBotz" 
-global.packname = process.env.PackName || "Queen Anya v2 MD" 
-global.myweb = process.env.Web || "https://github.com/PikaBotz" 
-global.footer = process.env.Footer || "© Queen Anya Bot" 
+global.botname = process.env.BotName || "Gabby" 
+global.author = process.env.Author || "@Gabby" 
+global.packname = process.env.PackName || "Gabby MD" 
+global.myweb = process.env.Web || "https://github.com" 
+global.footer = process.env.Footer || "© Gabby Bot" 
 global.prefa = process.env.Prefix || ['-'] 
 global.themeemoji = process.env.ThemeEmoji || "🎐" 
-global.ownername = process.env.Owner_Name || "Pika~Kun" 
-global.ownernumber = process.env.Owner_Number || "916900904828" 
+global.ownername = process.env.Owner_Name || "Gabby" 
+global.ownernumber = process.env.Owner_Number || "254112565651" 
 global.adress = process.env.Continent || "Asia, India, Assam" 
 global.timezone = process.env.TimeZone || "Asia/Kolkata" 
-global.instagramId = process.env.Insta || "8.08_only_mine" 
-global.email = process.env.Email_Id || "example@example.com" 
+global.instagramId = process.env.Insta || "gabby" 
+global.email = process.env.Email_Id || "gabriellitoro70@gmail.com" 
 
-global.mongoUrl = process.env.MongoDB || "Enter"; 
+global.mongoUrl = process.env.MongoDB || "mongodb+srv://Gabby:Gabby@cluster0.u1smxsv.mongodb.net/?retryWrites=true&w=majority"; 
 
-global.warns = process.env.Warns_Limits || 3; 
+global.warns = process.env.Warns_Limits || 1; 
 
 global.badWords = [
   "vagina",
@@ -89,7 +89,7 @@ global.message = {
     success: "✅ 𝚂𝚞𝚌𝚌𝚎𝚜𝚜! 𝙾𝚙𝚛𝚊𝚝𝚒𝚘𝚗 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍.",
     admin: "*👤 A𝙳𝙼𝙸𝙽 N𝙴𝙴𝙳𝙴𝙳!*\n\n- Dear, this command is only for Admins. You have to be a admin in this group to use this command.",
     botAdmin: "*🤖 B𝙾𝚃 A𝙳𝙼𝙸𝙽 N𝙴𝙴𝙳𝙴𝙳!*\n\n- I'm not an Admin, so I can't execute this command in this group. Please make me an Admin.",
-    owner: "*👑 O𝚆𝙽𝙴𝚁 N𝙴𝙴𝙴𝙳𝙴𝙳!*\n\n- Bruh, this command is only made for this bot's owner. So you can't use this command.",
+    owner: "*👑 O𝚆𝙽𝙴𝚁 N𝙴𝙴ded!*\n\n- Bruh, this command is only made for this bot's owner. So you can't use this command.",
     group: "*👥 G𝚛𝚘𝚞𝚙 N𝚎𝚎𝚍𝚎𝚍!*\n\n- This command can only be executed in a group chat.",
     private: 'This command is only for private chats.',
     wait: '🔄 Processing request...',
@@ -101,21 +101,21 @@ global.message = {
 },
 
 module.exports = {
-  botname: process.env.BotName || "Queen Anya", 
-  author: process.env.Author || "@PikaBotz",
-  packname: process.env.PackName || "Queen Anya v2 MD",
-  myweb: process.env.Web || "https://github.com/PikaBotz",
-  footer: process.env.Footer || "© Queen Anya Bot",
+  botname: process.env.BotName || "Gabby", 
+  author: process.env.Author || "@Gabby",
+  packname: process.env.PackName || "Gabby MD",
+  myweb: process.env.Web || "https://github.com",
+  footer: process.env.Footer || "© Gabby Bot",
   prefa: process.env.Prefix || ['-'],
   themeemoji: process.env.ThemeEmoji || "🎐",
   ownername: process.env.Owner_Name || "Pika~Kun",
-  ownernumber: process.env.Owner_Number || "916900904828",
+  ownernumber: process.env.Owner_Number || "254112565651",
   adress: process.env.Continent || "Asia, India, Assam",
   timezone: process.env.TimeZone || "Asia/Kolkata", 
   instagramId: process.env.Insta || "8.08_only_mine",
   email: process.env.Email_Id || "example@example.com",
-  warns: process.env.Warns_Limits || 3,
-  mongoUrl: process.env.MongoDB || "Enter",
+  warns: process.env.Warns_Limits || 1,
+  mongoUrl: process.env.MongoDB || "mongodb+srv://Gabby:Gabby@cluster0.u1smxsv.mongodb.net/?retryWrites=true&w=majority",
   welcome: process.env.Welcome_Msg || '*@$user* joined this group today as $membersth member.\n\n_$prefix welcome off to disable this message._',
   left: process.env.Left_Msg || 'Ex-member *@$user* is no longer available in this group chat.\n\n_$prefix goodbye off to disable this message._',
   promote: process.env.Promote_Msg || '*@$user* has been promoted as an admin in this group.\n\n_$prefix promotem off to disable this message._',
